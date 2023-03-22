@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Boot-2</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!-- style custom -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- icons-bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="top-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="images/Screenshot 2023-03-22 103201.png"
+            class=""
+            width="80"
+            height="50"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search" id="searchform">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <!-- banner-section -->
+      <div class="row justify-content-center bg-warning mb-4" id="banner">
+        <div class="col-md-6 pb-4 col-11" id="banner-text">
+          <h1 class=" ">
+            First I wanted to be <br />
+            a Photographer.
+          </h1>
+          <p class="my-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+            sunt delectus suscipit dignissimos dolor iure explicabo!
+          </p>
+          <button type="button" class="btn" id="banner-btn-1">Contact</button>
+          <button type="button" class="btn" id="banner-btn-2">
+            Our Services
+          </button>
+        </div>
+
+        <div class="col-md-4 d-none d-md-block" id="banner-img">
+          <img
+            src="./images/shanu images/WhatsApp Image 2023-03-22 at 10.45.21 AM.jpeg"
+            class="img-fluid mt-4 mb-5"
+            alt=""
+            width="400px"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- section dosra -->
+    <div class="container-fluid">
+      <div class="row justify-content-center" id="section-two">
+        <div class="col-md-6">
+          <h1>
+            As a Photographer and <br />
+            lover of nature.
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing <br />
+            elit. Ipsum eligendi iusto harum architecto quos adipisci! <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+            ut.
+          </p>
+          <button type="button" class="btn" id="section-two-btn">
+            Our Services
+          </button>
+        </div>
+        <div class="col-md-4" id="section-two-img">
+          <img
+            src="./images/shanu images/WhatsApp Image 2023-03-22 at 10.45.23 AM.jpeg"
+            height="200px"
+            width="300px"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+    <!-- Section three Counter -->
+
+    <div class="row justify-content-center" id="counter-section">
+      <div class="col-md-3 text-center counter-div">
+        <i class="bi bi-balloon-heart-fill counter-icon"></i>
+        <h3 class="m-4 text-dark">
+          +842 <br />
+          Happy Clients
+        </h3>
+        <hr />
+      </div>
+      <div class="col-md-3 text-center counter-div">
+        <i class="bi bi-amd counter-icon"></i>
+        <h3 class="m-4 text-dark">
+          +442 <br />
+          Weddings
+        </h3>
+        <hr />
+      </div>
+      <div class="col-md-3 text-center counter-icon counter-div">
+        <i class="bi bi-images"></i>
+        <h3 class="m-4 text-dark">
+          +2842 <br />
+          Images
+        </h3>
+        <hr />
+      </div>
+    </div>
+
+    <!-- Recent Work Section -->
+    <div class="row justify-content-center" id="recent-work-section">
+      <h1 class="text-center">Recent Work</h1>
+      <p class="text-center">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+        adipisci nulla.
+      </p>
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem">
+          <img
+            src="./images/shanu images/WhatsApp Image 2023-03-22 at 10.36.02 AM.jpeg"
+            class="card-img-top"
+            alt="..."
+            height="200px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Badamwari</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem">
+          <img
+            src="./images/shanu images/WhatsApp Image 2023-03-22 at 10.36.18 AM.jpeg"
+            class="card-img-top"
+            alt="..."
+            height="200px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Gulmarg</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem">
+          <img
+            src="./images/shanu images/WhatsApp Image 2023-03-22 at 10.42.13 AM.jpeg"
+            class="card-img-top"
+            alt="..."
+            height="200px"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Dal Lake</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="row justify-content-center" id="footer">
+      <div class="col-md-3" id="about-footer">
+        <h3>About</h3>
+        <a href="">History</a><br />
+        <a href="">Our Team</a><br />
+        <a href="">Brand Guidelines</a><br />
+        <a href="">Terms and Conditions</a><br />
+        <a href="">Privacy Policy</a><br />
+      </div>
+      <div class="col-md-2" id="services-footer" >
+        <h3>Services</h3>
+        <a href="">How to order</a><br />
+        <a href="">Order Status</a><br />
+        <a href="">Promo</a><br />
+        <a href="">Privacy</a><br />
+        <a href="">Payment Method</a><br />
+      </div>
+      <div class="col-md-4" >
+        <h2 class="text-white text-center " id="footer-h2">Let's Talk</h2>
+        <form id="form-section">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-white"
+              >Name</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+            <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label text-white"
+              >Phone Number</label
+            >
+            <input
+              type="number"
+              class="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+            />
+          
+          
+          <button type="submit" class="btn btn-warning  mt-1 ">Submit</button>
+        </form>
+      </div>
+     
+            <i class="bi bi-instagram text-white social-media"></i>
+            <i class="bi bi-facebook text-white social-media"></i>
+            <i class="bi bi-whatsapp text-white social-media"></i>
+            <i class="bi bi-youtube text-white social-media"></i>
+      
+    </div>
+     
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
